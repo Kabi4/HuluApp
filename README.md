@@ -2,7 +2,7 @@
   - [HULU Clone](https://hulu-app-1d6f9.web.app/) 
   
 # `SNEAKY PEAK`
-  - ![HULU Snekay Peak](https://github.com/Kabi4/TikTok-Clone/blob/main/SneakyPeak.png) 
+  - ![HULU Snekay Peak](https://github.com/Kabi4/HuluApp/blob/main/SneakyPeak.png) 
 # `BUILD INFO`  
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).  
