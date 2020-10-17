@@ -1,0 +1,15 @@
+.navitem{
+    cursor: pointer;
+    font-weight: 500;
+    margin: 1rem 3rem;
+    display: block;
+    opacity: 0.7;
+    backface-visibility: hidden;
+    transition: all 200ms ease-out;
+    text-align: center;
+}
+
+.navitem:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}

@@ -1,0 +1,55 @@
+.movie{
+    color: white;
+    width: 400px;
+    padding: 20px;
+    transition: all 200ms ease-in;
+    line-height: 1.2;
+    backface-visibility: hidden;
+}
+
+.movie:hover{
+    transform: scale(1.09);
+}
+
+.movie > h1{
+    font-weight: 600;
+    font-size: 1.8rem;
+
+    padding: 10px 0 0 0;
+    backface-visibility: hidden;
+}
+
+.movie > h2{
+    font-weight: 400;
+    backface-visibility: hidden;
+    opacity: 0.7;
+    font-size: 1.4rem;
+    padding: 5px 0 0 0;
+    max-width: 360px;
+}
+
+.movie > img{
+    width: 360px;
+    object-fit: contain;
+}
+
+.movie >div{
+    backface-visibility: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 200ms ease-in;
+    display: flex;
+    align-items: center;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.movie:hover > div{
+    opacity: 0.7;
+    visibility: visible;
+}
+
+.movie > div > p{
+    display: flex;
+    align-items: center;
+}

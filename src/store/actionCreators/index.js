@@ -1,0 +1,3 @@
+export {
+    setOption
+} from './category';
